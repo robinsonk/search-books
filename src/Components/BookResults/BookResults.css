@@ -1,0 +1,119 @@
+hr {
+    display: none;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+    margin-right: 0;
+    padding: 10px;
+}
+
+.bookResult h4 {
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0px;
+    max-width: 250px; 
+}
+
+.bookResult {
+    margin-top: 50px;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 346px;
+    top: 0;
+}
+
+.book-info {
+    padding-left: 10px;
+    padding-right: 10px;
+    top: 0;
+    overflow: auto; 
+    margin-bottom: 20px;
+    width: max-content;
+    text-align: left;
+}
+
+.book-info p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.result-container {
+    background-color: rgba(255, 255, 255, 0.89);
+    margin-top: 500px;
+}
+
+.content-frame {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 70%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.filling-empty-space {
+    width: 250px;
+}
+
+a {
+    color: rgb(71, 36, 0);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(216, 124, 37);
+}
+
+@media screen and (max-width: 800px) {
+
+    .content-frame {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bookResult {
+        margin-top: 40px;;
+    }
+
+    .book-info {
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        top: 0;
+        overflow: auto; 
+        margin-bottom: 20px;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .bookResult:nth-child(1) {
+        margin-top: 50px;
+    }
+}

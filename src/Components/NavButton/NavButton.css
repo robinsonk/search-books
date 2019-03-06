@@ -1,0 +1,11 @@
+.navButton {
+    color: white;
+    /* opacity: 1;    */
+    font-size: 40px;
+}
+
+.navButton-active {
+    opacity: 1;  
+    transition: .7s ease;
+    font-size: 40px;
+}

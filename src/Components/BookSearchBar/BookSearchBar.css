@@ -1,0 +1,93 @@
+form {
+    /* background-color: rgba(3, 2, 2, 0.747); */
+    margin-top: -25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bookSearchBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.bookSearchBar label {
+    display: none;
+}
+
+.search {
+    width: 40%;
+    height: 35px;
+    border-radius: 3px;
+    margin-bottom: 25px;
+    background-color: white;
+    border: 2px solid white;
+    color: rgb(37, 25, 14);
+}
+
+.button {
+    border-radius: 3px;
+    width: 15%;
+    height: 45px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    background-color: rgb(216, 124, 37);
+    border: 2px solid rgb(216, 124, 37);
+    color: white;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: rgba(216, 123, 37, 0.568);
+    transition: .7s ease;
+    color: white;
+}
+
+.navButton {
+    color: white;
+    opacity: 0;   
+    font-size: 70px;
+    margin-top: -190px;
+    text-align: center;
+}
+
+.navButton-active {
+    box-sizing: border-box;
+    color: white;
+    opacity: 1;   
+    font-size: 100px;
+    margin-top: -120px;
+    text-align: center;
+    transition: .9s ease;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40%;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(37, 25, 14);
+    opacity: 1; /* Firefox */
+    padding-left: 10px;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgb(37, 25, 14);
+    padding-left: 10px;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgb(37, 25, 14);
+    padding-left: 10px;
+  }
+
+  @media screen and (max-width:500px) {
+    .bookSearchBar {
+        flex-direction: column;
+    }
+
+    .button {
+        width: 40%;
+        margin-left: 0px;
+    }
+  }
